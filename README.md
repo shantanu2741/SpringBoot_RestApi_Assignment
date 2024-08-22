@@ -26,7 +26,7 @@ This is a Spring Boot application that provides an API for searching manufacture
 - spring.datasource.password=your-password
 - spring.jpa.hibernate.ddl-auto=update
 
-- I have created Database and Tables for following queries
+**I have created Database and Tables for following queries**
 - create database makersharks;
 - use makersharks;
 - INSERT INTO suppliers VALUES 
