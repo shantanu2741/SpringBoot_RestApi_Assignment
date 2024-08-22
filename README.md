@@ -22,7 +22,9 @@ This is a Spring Boot application that provides an API for searching manufacture
 ## Configure the Database
 
 **A MySQL database named makersharks**
-application.properties file with MySQL database credentials:
+
+
+- DB configurations in application.properties file with MySQL database credentials:
 spring.datasource.url=jdbc:mysql://localhost:3306/makersharks
 spring.datasource.username=your-username
 spring.datasource.password=your-password
