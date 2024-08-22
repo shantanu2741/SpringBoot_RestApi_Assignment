@@ -35,10 +35,10 @@ spring.jpa.hibernate.ddl-auto=update
 
 
 **Build the Application**
-Used Spring Tool Suite (STS).
+- Used Spring Tool Suite (STS).
 
-The API will be accessible at http://localhost:8080.
-I have tested api using Postman.
+- The API will be accessible at http://localhost:8080.
+- I have tested api using Postman.
 
 **API Request using Postman:**
 - Open Postman and create a new POST request.
@@ -52,14 +52,18 @@ I have tested api using Postman.
 - Click Send to make the request.
 
 
-Description: Retrieves a list of manufacturers based on location, nature of business, and manufacturing processes.
-Request Parameters:
+**Description:** Retrieves a list of manufacturers based on location, nature of business, and manufacturing processes.
+  Request Parameters:
 - location (String): The location of the manufacturer (e.g., India).
 - natureOfBusiness (String): The nature of the business (e.g., SMALL_SCALE).
 - manufacturingProcesses (String): The manufacturing process (e.g., D_PRINTING).
 - page (int): The page number (default is 0).
 - size (int): The number of records per page (default is 10).
 - Response: Returns a paginated list of manufacturers matching the given criteria.
+
+
 ![image](https://github.com/user-attachments/assets/061d88ea-c65d-49f8-affc-0410c2b22133)
+
+
 
 So I have successfuly created Rest API  Using SpringBoot and tested using Postman.
