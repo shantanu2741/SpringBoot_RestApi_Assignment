@@ -21,10 +21,10 @@ This is a Spring Boot application that provides an API for searching manufacture
 
 
 - DB configurations in application.properties file with MySQL database credentials:
-spring.datasource.url=jdbc:mysql://localhost:3306/makersharks
-spring.datasource.username=your-username
-spring.datasource.password=your-password
-spring.jpa.hibernate.ddl-auto=update
+- spring.datasource.url=jdbc:mysql://localhost:3306/makersharks
+- spring.datasource.username=your-username
+- spring.datasource.password=your-password
+- spring.jpa.hibernate.ddl-auto=update
 
 - I have created Database and Tables for following queries
 - create database makersharks;
