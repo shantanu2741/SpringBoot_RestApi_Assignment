@@ -14,10 +14,6 @@ This is a Spring Boot application that provides an API for searching manufacture
 ## Getting Started
 
 1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/your-username/makersharks-manufacturer-search-api.git
-   cd makersharks-manufacturer-search-api
-
 
 ## Configure the Database
 
